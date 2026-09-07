@@ -1,0 +1,7 @@
+This is a sample piece of content (imagine this is a caption, article,
+or metadata file for a photo you own) used to demo the provenance
+pipeline: hash it, register it on-chain, then verify it later.
+
+Try editing this file after registering it, then re-run scripts/verify.js
+to see the tamper-detection in action -- the new hash won't match the
+on-chain record.

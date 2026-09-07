@@ -1,0 +1,20 @@
+{
+  "name": "provenance-verifier",
+  "version": "1.0.0",
+  "description": "Content provenance pipeline: web search -> hash -> on-chain blockchain verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": ["blockchain", "provenance", "hardhat", "verification"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.5"
+  }
+}
